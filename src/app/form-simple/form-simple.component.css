@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: #343434;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+}
+
+.inner-wrapper {
+    background-color: #565656;
+    width: 500px;
+    height: 150px;
+    color: beige;
+}
+
+.form-button {
+    width: 120px;
+    height: 20px;
+    background-color: #ffaa06;
+    color: azure;
+}

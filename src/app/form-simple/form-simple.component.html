@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <form #v="ngForm" 
+        (ngSubmit)="onSubmit(v.value)"
+        class="main-form">
+    <div class="inner-wrapper">
+      <label for="ski">SKI</label>
+      <input type="text"
+             id="ski"
+             placeholder="SKI BLET"
+             name="name" ngModel>
+    </div>
+    <button type="submit" class="form-button">Push me</button>
+  </form>
+</div>

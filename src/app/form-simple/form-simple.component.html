@@ -1,14 +1,14 @@
 <div class="wrapper">
   <h1>Push your tempo</h1>
-  <form #v="ngForm" 
-        (ngSubmit)="onSubmit(v.value)"
+  <form [formGroup] = "myForm"
+        (ngSubmit)="onSubmit(myForm.value)"
         class="main-form">
     <div class="inner-wrapper">
       <label for="push">PUSH</label>
       <input class="input" type="text"
              id="push"
              placeholder="Push The Tempo"
-             name="push" ngModel>
+             [formControl]="myForm.controls['push']">
     </div>
     <button type="submit" class="form-button">Push me</button>
   </form>

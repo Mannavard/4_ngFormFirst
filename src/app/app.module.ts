@@ -13,7 +13,7 @@ import { FormSimpleComponent } from './form-simple/form-simple.component';
   imports: [
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

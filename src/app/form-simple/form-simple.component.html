@@ -1,13 +1,14 @@
 <div class="wrapper">
+  <h1>Push your tempo</h1>
   <form #v="ngForm" 
         (ngSubmit)="onSubmit(v.value)"
         class="main-form">
     <div class="inner-wrapper">
-      <label for="ski">SKI</label>
-      <input type="text"
-             id="ski"
-             placeholder="SKI BLET"
-             name="name" ngModel>
+      <label for="push">PUSH</label>
+      <input class="input" type="text"
+             id="push"
+             placeholder="Push The Tempo"
+             name="push" ngModel>
     </div>
     <button type="submit" class="form-button">Push me</button>
   </form>

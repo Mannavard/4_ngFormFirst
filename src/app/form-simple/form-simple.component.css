@@ -6,15 +6,20 @@
 }
 
 .inner-wrapper {
-    background-color: #565656;
     width: 500px;
     height: 150px;
     color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 10px;
 }
 
 .form-button {
     width: 120px;
-    height: 20px;
+    padding: 10px;
     background-color: #ffaa06;
     color: azure;
 }

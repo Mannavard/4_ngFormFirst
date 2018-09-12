@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class FormSimpleComponent {
 
+onSubmit(form: any): void {
+  console.log(`u have just submitted a piece of shit`, form);
+}
+
+
+
 }
